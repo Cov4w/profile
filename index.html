@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEUNG GYUN CHOI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="sidebar">
+      <nav>
+        <ul>          
+          <li><a href="#">Profile</a></li>          
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#liANDex">License & Experience</a></li>
+          <!--
+          <li><a href="#experience">EXPERIENCE</a></li> 
+        -->
+        </ul>
+      </nav>
+    </div>
+    <div class="center-text">
+      <div id="main_text">
+        <h2>창의적으로 새로운 것을 개발하는 개발자</h2>
+        <h3>-------</h3>
+      </div>
+    </div>
+    <div class="sideProfile">
+      <div id="main_profile">
+        <img id="main_image" src="images/Yujin.jpg" alt="사진" class="profile_img">
+        <h1>SEUNG GYUN CHOI</h1>
+        <p class="info"></p>
+        <div class="social">
+          <a href="https://cov4w.github.io/profile/"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="main">
+      
+
+      </div>
+       <div id="skills">
+        <h2>SKILLS</h2>
+        <ul>
+          <li><i class="fa-brands fa-python"></i> Python</li>
+          <li><i class="fa-brands fa-java"></i> Java</li>
+          <li><i class="fa-solid fa-gear"></i> Spring Framework</li>
+          <li><i class="fa-solid fa-database"></i> MySQL</li>
+          <li><i class="fa-solid fa-laptop-code"></i> HTML/CSS</li>
+        </ul>
+        <div style="max-width:400px; margin:85px auto;">
+          <canvas id="skillsRadar"></canvas>
+        </div>
+      </div>
+      <div id="education">
+        <h2>EDUCATION</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-icon" style="background:#f7c873;">01</div>
+              <div class="timeline-content">
+                <h3>CHEONGWON HIGH SCHOOL</h3>
+                <p>2020<br>인문계열 고등학교 졸업</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-icon" style="background:#7ed6df;">02</div>
+              <div class="timeline-content">
+                <h3>WOOSONG UNIVERSITY</h3>
+                <p>2021<br>AI 빅데이터학과</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-icon" style="background:#f6e58d;">03</div>
+              <div class="timeline-content">
+                <h3>MILITARY SERVICE</h3>
+                <p>2022<br>군대 입대</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-icon" style="background:#badc58;">04</div>
+              <div class="timeline-content">
+                <h3>WOOSONG UNIVERSITY</h3>
+                <p>2024<br>AI 빅데이터학과 복학</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-icon" style="background:#686de0;">05</div>
+              <div class="timeline-content">
+                <h3>Continue</h3>
+                <p>2025<br>우송대학교 특별교육</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div id="liANDex">
+        <div class="license-area">
+        <h2 class="license">LICENSE</h2>
+          <ul class="license-list">
+            <li><i class="fa-solid fa-book"></i><span class="license-date">2025. 00. 00</span>SQLD</li>
+            <li><i class="fa-solid fa-book"></i><span class="license-date">2025. 00. 00</span>컴퓨터활용능력 1급</li>
+            <li><i class="fa-solid fa-book"></i><span class="license-date">2026. 00. 00</span>정보처리기사</li>
+          </ul>
+        </div>
+        <div class="experience-area">
+        <h2 class = experience>EXPERIENCE</h2>
+          <ul class ="experience-list">
+            <li><i class="fa-solid fa-wrench"></i></li>
+            <li><i class="fa-solid fa-wrench"></i></li>
+            <li><i class="fa-solid fa-wrench"></i></li>
+          </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="skillsRadar.js"></script>
+  </body>
