@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
 
 * {
   margin:0;
@@ -21,16 +23,24 @@ body {
   color:#222;
   list-style: none;
 }
+/*본문*/
+#main_text h2 {
+  font-family: "Stylish", sans-serif;
+  font-size: 50px;
+}
+#main_text h3 {
+  font-family: "Stylish", sans-serif;
+  font-size: 32px;
+}
 /*사이드바*/
 .sidebar {
   position: fixed;
   right: 0;
   top:0;
-  width:256px;
+  width:280px;
   height:100vh;
-  /**
-  background: linear-gradient(10deg, #b9def6, #1594e3);
-  **/
+  background: linear-gradient(10deg, #1594e3, #b9def6);
+
   display: flex;
   flex-direction: column; /*플렉스 컨테이너(부모요소)안의 자식요소들을
   세로(열)방향으로 정렬*/
@@ -40,16 +50,28 @@ body {
   z-index: 10;
 }
 .sidebar nav ul li a {
+  font-family: "Alegreya", serif;
   color:#000000;
   text-decoration: none;
   font-size:24px;
   font-weight: 700;
   transition: color 0.5s;
 }
+
 .sidebar nav ul li a:hover {
-  color:#f6f04b;
-  font-size: 30px;
+  color: #000000;
+  font-size: 24px;
+  opacity: 1;
 }
+
+.sidebar nav ul:hover li a:not(:hover) {
+  opacity: 0.3;
+
+  transition: color 0.5s, font-size 0.3s, opacity 0.3s;
+}
+
+/*메인 프로필*/
+
 #main_profile h1 {
   font-family: DynaPuff, cursive;
 }
