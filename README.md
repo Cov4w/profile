@@ -3,7 +3,7 @@
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=cov4w&label=Profile%20views&color=0e75b6&style=flat" alt="cov4w" /> </p>
 
-- 🌱 I’m currently learning **2025 AI 응용 sW전문가 양성**
+- 🌱 I’m currently learning **2025 AI 응용 SW전문가 양성**
 
 - 💬 Ask me about **cov4w.github.io/profile**
 
